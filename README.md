@@ -1,1 +1,1 @@
-estudaremos aqui diferentes padrõe s de projetoe
+estudaremos aqui diferentes padrões de projetoe
