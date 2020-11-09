@@ -15,13 +15,13 @@
 * Permitir que o programa se recupere de erros.
 
 ## 5. **Structure:**
-![Memento](https://github.com/samuelanacleto/assets/blob/master/Memento.png)
+![Memento](https://github.com/samuelanacleto/assets/blob/master/Memento_design_pattern.png)
 
 ## 6. **Participants:**
 
 ######    **Memento:**
 * classe que representa um snapshot, contendo o estado de um objeto a ser restaurado em um Originador. Possui métodos para obter e definir o estado que um Memento encapsula dentro
-######    **Originador:**
+######    **Originator:**
 * classe na qual o estado atual é mantido. Define método que permite criar um Memento com o estado atual do Originador armazenado no Memento retornado. Originator também tem um método que define seu estado atual com o estado de um determinado objeto Memento. Portanto, pode criar um Snapshot  (Memento) ou restaurar o estado do Snapshot fornecido (Memento).   
 ######    **Caretaker:**
 * classe auxiliar responsável por armazenar e restaurar o estado do Originador por meio do objeto Memento. Um objeto Caretaker mantém os Mementos, mas nunca modifica os Mementos. 
